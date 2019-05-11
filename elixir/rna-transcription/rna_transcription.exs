@@ -16,4 +16,5 @@ defmodule RNATranscription do
   def to_rna(dna) do
     dna |> Enum.map(&to_rna/1)
   end
+
 end
